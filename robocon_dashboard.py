@@ -66,6 +66,10 @@ with st.container():
         
         作为国内首支获得国际冠军的队伍，西安交大Robocon机器人队在历届大赛中屡创佳绩，
         培养了大批优秀的工程技术人才，为国家科技创新事业做出了积极贡献。
+        
+        近日，第二十四届全国大学生机器人大赛总决赛中，西安交大ROBOCON机器人队在机器人篮球赛、
+        仿生足式挑战赛和机器人排球赛三大赛项中荣获全国一等奖6项（其中排球赛项全国冠军，
+        "飞身上篮"技能挑战赛全国季军，竞技赛全国八强），二等奖和三等奖共6项。
         """)
 
 # 关键统计数据
@@ -74,11 +78,11 @@ with st.container():
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        st.markdown('<div class="stat-card"><div class="stat-value">3</div><div class="stat-label">国内冠军</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">国内冠军</div></div>', unsafe_allow_html=True)
     with col2:
         st.markdown('<div class="stat-card"><div class="stat-value">2</div><div class="stat-label">国际冠军</div></div>', unsafe_allow_html=True)
     with col3:
-        st.markdown('<div class="stat-card"><div class="stat-value">7</div><div class="stat-label">国内季军</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="stat-card"><div class="stat-value">8</div><div class="stat-label">国内季军</div></div>', unsafe_allow_html=True)
     with col4:
         st.markdown('<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">最佳设计奖</div></div>', unsafe_allow_html=True)
 
@@ -92,13 +96,13 @@ robocon_data = {
         "累计获奖情况"
     ],
     "主要奖项": [
-        "全国一等奖6项（篮球、仿生足式、排球赛项）",
+        "全国一等奖6项（排球赛项全国冠军，\"飞身上篮\"技能挑战赛全国季军，竞技赛全国八强）、二等奖和三等奖共6项",
         "全国一等奖4项（排球赛项全国季军）、二等奖3项、三等奖1项",
         "全国一等奖、最佳设计奖（全国唯一）",
-        "国内冠军3次、国际冠军2次、国内季军7次、最佳设计奖4次"
+        "国内冠军4次、国际冠军2次、国内季军8次、最佳设计奖4次"
     ],
     "参赛项目": [
-        "机器人篮球赛、仿生足式挑战赛、机器人排球赛",
+        "机器人篮球赛、仿生足式挑战赛、机器人排球赛（主题：飞身上篮）",
         "颗粒归仓、仿生和排球机器人竞赛",
         "绿茵争锋（机器人橄榄球比赛）",
         "多项赛项累计"
@@ -203,11 +207,33 @@ with st.container():
     st.write('### 比赛精彩瞬间')
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image('https://via.placeholder.com/300x200?text=比赛现场照片1', caption='第二十四届全国大学生机器人大赛现场')
+        st.image('pic/1D0A31CB8968AFC08C759C31ECEA31E4.jpg', caption='第二十四届全国大学生机器人大赛现场', use_container_width=True)
     with col2:
-        st.image('https://via.placeholder.com/300x200?text=获奖照片2', caption='团队获奖合影')
+        st.image('pic/AD438B7D4857E9FF9760BC26CEE63A51.jpg', caption='团队获奖合影', use_container_width=True)
     with col3:
-        st.image('https://via.placeholder.com/300x200?text=团队合影3', caption='机器人队年度合影')
+        st.image('pic/C3475D83146B9CB8C95870C4DCD0829C.jpg', caption='机器人队年度合影', use_container_width=True)
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image('pic/C859F7675B5FEBABF51107EB7B450BCF.jpg', caption='比赛精彩瞬间', use_container_width=True)
+    with col2:
+        st.image('pic/DD38753C585A9F32164882EA14E40FE3.jpg', caption='团队协作', use_container_width=True)
+    with col3:
+        st.image('pic/16095DA2A5E91DB079D70477A90F6A94.jpg', caption='机器人设计细节', use_container_width=True)
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image('pic/7C3D27E670B41801CE502B9A38F472DD.jpg', caption='比赛准备阶段', use_container_width=True)
+    with col2:
+        st.image('pic/82E9ACDA75C7591173BE329A023F35E8.jpg', caption='技术调试', use_container_width=True)
+    with col3:
+        st.image('pic/8C9490C25A90D43176FB8570D9AB94E8.jpg', caption='颁奖仪式', use_container_width=True)
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image('pic/C04BD63841DC720F16477FFB8DEE8F01.jpg', caption='团队讨论', use_container_width=True)
+    with col2:
+        st.image('pic/F0BA66A312EB4EB8CDF8BF3F7636B6CB.jpg', caption='实验室日常', use_container_width=True)
 
     # 队内分工介绍
     st.write('### 队内分工')
