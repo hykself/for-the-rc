@@ -58,7 +58,7 @@ with st.container():
     st.markdown('<h2 class="sub-header">团队简介</h2>', unsafe_allow_html=True)
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image("https://i.imgur.com/placeholder.png", caption="西安交大Robocon机器人队", use_column_width=True)
+        st.image("pic/rc.jpg", caption="西安交大Robocon机器人队", use_container_width=True)
     with col2:
         st.markdown("""
         西安交通大学机器人俱乐部(ABU ROBOCON机器人队)成立于2001年10月，连续参赛23年。
