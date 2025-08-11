@@ -204,7 +204,7 @@ with st.container():
     st.markdown('<h2 class="sub-header">团队风采</h2>', unsafe_allow_html=True)
     
     # 团队照片展示
-    st.write('### 比赛精彩瞬间')
+    st.write('### 比赛现场')
     col1, col2, col3 = st.columns(3)
     with col1:
         st.image('pic/1D0A31CB8968AFC08C759C31ECEA31E4.jpg', caption='第二十四届全国大学生机器人大赛现场', use_container_width=True)
@@ -215,7 +215,7 @@ with st.container():
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image('pic/C859F7675B5FEBABF51107EB7B450BCF.jpg', caption='比赛精彩瞬间', use_container_width=True)
+        st.image('pic/C859F7675B5FEBABF51107EB7B450BCF.jpg', caption='比赛现场', use_container_width=True)
     with col2:
         st.image('pic/DD38753C585A9F32164882EA14E40FE3.jpg', caption='团队协作', use_container_width=True)
     with col3:
